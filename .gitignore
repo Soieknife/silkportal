@@ -1,7 +1,0 @@
-node_modules/
-dist/
-.dev.vars
-*.log
-wrangler.toml
-GUIDE.md
-.wrangler/
