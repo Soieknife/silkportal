@@ -1,0 +1,10 @@
+{
+  "name": "silkportal",
+  "private": true,
+  "scripts": {
+    "deploy:auth": "cd auth-worker && npx wrangler deploy",
+    "deploy:example": "cd example-app && npx wrangler deploy",
+    "dev:auth": "cd auth-worker && npx wrangler dev",
+    "dev:example": "cd example-app && npx wrangler dev"
+  }
+}
